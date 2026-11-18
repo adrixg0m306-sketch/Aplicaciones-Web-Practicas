@@ -1,0 +1,73 @@
+/* estilos de etiqueta */
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: black;
+  margin: 20px;
+  background-color: gainsboro; /*fondo de la pagina*/
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000080;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid #0033cc;
+  border-bottom: 1px solid #0033cc;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* clases */
+
+.TimesRojo {  /* para palabras en rojo */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+.TimesVerde {  /* para palabras en verde */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+}
+
+
+/* recuadros */
+
+#recuadro {  /* datos personales */
+  background-color: #F5A9A9;
+  font-size: 14px;
+  color: #74030A;
+  font-family: Arial, Times, sans-serif;
+  border: solid 3px;
+  padding: 15px;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  border-radius: 25px;  /* esquinas redondas */
+  box-shadow: 2px 2px 5px black;  /* sombra */
+}
+
+#formacion {  /* formacion, cursos, idiomas y referencias */
+  background-color: #9FD5FF;
+  font-size: 14px;
+  color: #000080;
+  font-family: Arial, Times, sans-serif;
+  border: dotted 3px #000080;
+  padding: 15px;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px black;
+}
